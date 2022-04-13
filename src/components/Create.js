@@ -5,7 +5,6 @@ import { collection,addDoc } from 'firebase/firestore'
 import { db } from '../firebaseConfig/firabase'
 import { async } from '@firebase/util'
 
-
 const Create = () => {
   const[description, setDescription] = useState('')
   const [stock, setStock] = useState(0)
